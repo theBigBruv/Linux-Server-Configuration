@@ -30,7 +30,7 @@ URL to hosted web application: http://ec2-52-36-10-250.us-west-2.compute.amazona
 7. Configured local timezones to UTC
 8. Installed and enabled apache and mod_wsgi
 9. Installed and configured PostgreSQL
-10. Cloned the Luxury Rides Catalog application files into the /var/www/luxury_rides_catalog directory
+10. Cloned the Luxury Rides Catalog application files into the /var/www/luxury_rides_catalog/ directory
 11. Created and configured the required .wsgi file to serve the Luxury Rides catalog application
     * Added a luxury_rides_catalog.wsgi file to the /var/www/luxury_rides_catalog/ directory
 12. Created, configured and enabled a new virtual host for the Luxury Rides Catalog application

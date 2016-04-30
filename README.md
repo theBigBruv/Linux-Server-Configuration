@@ -7,7 +7,7 @@ SSH Port: 2200
 
 URL to hosted web application: http://ec2-52-36-10-250.us-west-2.compute.amazonaws.com/
 
-## Summary of Software Installed:
+### Summary of Software Installed:
 1. Updated and upgraded all existing packages
 2. Installed finger package
 3. Installed apache2 package

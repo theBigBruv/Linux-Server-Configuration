@@ -1,4 +1,5 @@
-# Linux-Server-Configuration
+Linux Server Configuration
+==========================
 
 IP Address: 52.36.10.250
 
@@ -7,17 +8,17 @@ SSH Port: 2200
 URL to hosted web application: http://ec2-52-36-10-250.us-west-2.compute.amazonaws.com/
 
 ## Summary of Software Installed:
-Updated and upgraded all existing packages
-Installed finger package
-Installed apache2 package
-Installed libapache2-mod-wsgi package
-Installed postgresql package
-Installed git package
-Installed python-pip package
-Installed python's Flask-SQLAlchemy package
-Installed python's SQLAlchemy-Utils package
-Installed python's oauth2client package
-Installed python's requests package
+1. Updated and upgraded all existing packages
+2. Installed finger package
+3. Installed apache2 package
+4. Installed libapache2-mod-wsgi package
+5. Installed postgresql package
+6. Installed git package
+7. Installed python-pip package
+8. Installed python's Flask-SQLAlchemy package
+9. Installed python's SQLAlchemy-Utils package
+10. Installed python's oauth2client package
+11. Installed python's requests package
 
 ## Summary of Configuration Changes Made:
 Created users grader and catalog

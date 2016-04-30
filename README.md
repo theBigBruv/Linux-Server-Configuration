@@ -7,7 +7,7 @@ SSH Port: 2200
 
 URL to hosted web application: http://ec2-52-36-10-250.us-west-2.compute.amazonaws.com/
 
-### Summary of Software Installed:
+## Summary of Software Installed:
 1. Updated and upgraded all existing packages
 2. Installed finger package
 3. Installed apache2 package
@@ -21,17 +21,18 @@ URL to hosted web application: http://ec2-52-36-10-250.us-west-2.compute.amazona
 11. Installed python's requests package
 
 ## Summary of Configuration Changes Made:
-Created users grader and catalog
-Enabled sudo (with password) permissions for users grader and catalog
-Configured public key encryption for users grader and catalog
-Forced key based authentication
-Disabled root remote login
-Restarted ssh service to apply the changes
-Configured local timezones to UTC
-Installed and enabled apache and mod_wsgi
-Cloned the Luxury Rides Catalog application files into the /var/www/luxury_rides_catalog directory
-Created and configured the required .wsgi file to serve the Luxury Rides catalog application
-Added a luxury_rides_catalog.wsgi file to the /var/www/luxury_rides_catalog/ directory
-Created, configured and enabled a new virtual host for the Luxury Rides Catalog application
-Added a luxury_rides_catalog.conf file to the /etc/apache2/sites-available/ directory
-Restarted apache to apply the changes
+1. Created users grader and catalog
+2. Enabled sudo (with password) permissions for users grader and catalog
+3. Configured public key encryption for users grader and catalog
+4. Forced key based authentication
+5. Disabled root remote login
+6. Restarted ssh service to apply the changes
+7. Configured local timezones to UTC
+8. Installed and enabled apache and mod_wsgi
+9. Installed and configured PostgreSQL
+10. Cloned the Luxury Rides Catalog application files into the /var/www/luxury_rides_catalog directory
+11. Created and configured the required .wsgi file to serve the Luxury Rides catalog application
+    * Added a luxury_rides_catalog.wsgi file to the /var/www/luxury_rides_catalog/ directory
+12. Created, configured and enabled a new virtual host for the Luxury Rides Catalog application
+    * Added a luxury_rides_catalog.conf file to the /etc/apache2/sites-available/ directory
+13. Restarted apache to apply the changes

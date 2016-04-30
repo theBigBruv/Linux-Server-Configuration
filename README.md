@@ -15,10 +15,11 @@ URL to hosted web application: http://ec2-52-36-10-250.us-west-2.compute.amazona
 5. Installed postgresql package
 6. Installed git package
 7. Installed python-pip package
-8. Installed python's Flask-SQLAlchemy package
-9. Installed python's SQLAlchemy-Utils package
-10. Installed python's oauth2client package
-11. Installed python's requests package
+8. Installed python's Flask package
+9. Installed python's Flask-SQLAlchemy package
+10. Installed python's SQLAlchemy-Utils package
+11. Installed python's oauth2client package
+12. Installed python's requests package
 
 ## Summary of Configuration Changes Made:
 1. Created users grader and catalog
